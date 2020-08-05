@@ -10,11 +10,14 @@ public class FrontPiece {
             num[i] = scan.nextInt();
         }
         //WRITE YOUR CODE HERE
-        if (num.length < 2) {
-            System.out.println(Arrays.toString(num));
-        } else {
-            System.out.println((num[0] + num[1]));
+        for (int i = 0; i < size; i++) {
+            if (size < 2) {
+                System.out.println(Arrays.toString(num));
+            } else {
+                System.out.println("" + "[" + num[0] + ", " + num[1] + "]");
+                break;
 
+            }
         }
     }
 }
