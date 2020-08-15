@@ -3,7 +3,7 @@ package day16_String;
 import java.util.Scanner;
 
 /*
-Ask user to enter a word. Print true is the first and last characters of the string are same characters, print false otherwise.
+Ask user to enter a word. Print true if the first and last characters of the string are same characters, print false otherwise.
             Input:
                 abba
             Output:

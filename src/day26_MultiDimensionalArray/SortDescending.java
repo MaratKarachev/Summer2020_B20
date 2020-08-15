@@ -8,7 +8,7 @@ write a program that can sort the array in descending order
             arr1: { 10, 11, 8, 9, 12, 5, 15};
             output:
                 arr2: {15, 12, 11, 10, 9, 8, 5}
-            NOTE: at the end, you must have have an array that contains the desending order of the original array
+            NOTE: at the end, you must have have an array that contains the descending order of the original array
  */
 public class SortDescending {
     public static void main(String[] args) {

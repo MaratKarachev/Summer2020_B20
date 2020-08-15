@@ -8,6 +8,7 @@ public class AddElements {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int num = 1000;
 
+
         //{1,2,3,4};
 
         int[] arr2 = new int[arr.length + 1];
