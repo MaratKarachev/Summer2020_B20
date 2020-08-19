@@ -15,5 +15,6 @@ public class StudentObjects {
         System.out.println(obj1.schoolName);
         System.out.println(obj2.schoolName);
 
+        System.out.println(CybertekStudent.schoolName);
     }
 }

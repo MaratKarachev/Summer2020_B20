@@ -14,4 +14,11 @@ public class CybertekStudent {
     static String schoolName = "Cybertek School";
 
 
+    public void getInfo() {
+        System.out.println("Name: " + studentName);
+    }
+
+    public static void printSchoolName (){ //static suites the best, method can be called via class name.
+        System.out.println("School Name: "+schoolName);
+    }
 }

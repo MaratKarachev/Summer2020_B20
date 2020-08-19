@@ -5,23 +5,28 @@ Static Review: variable & method. static vs instance
 Static Block
 Static Import
 
-a: static
-b: instance
+static members:
+1.static variable
+2.static method
+3.static initializer block
 
-local variable: declared within a block or method. Cannot be used outside its block. Must be initialized before use.
+local variable: declared within a block or method. Cannot be used outside its block.
+Must be initialized before use.
 
-instance variable:
+instance variable: declared outside any methods or blocks
 
-static variable:
+static variable: declared outside any methods or block with static keyword
 
 static variable vs instance variable:
 
         static variable: we only use it if one common feature can be shared by all objects of the class
-        if we want all the objects to have the same date
+        if we want all the objects to have the same data
 
         instance variable: we only use it if there is not one common feature, and each object need to have different copy
         if we want object to have the unique data
 
+Static initializer block:
+to initialize static variables
 
 CybertekStudent:
 
