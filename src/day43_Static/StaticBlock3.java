@@ -1,0 +1,22 @@
+package day43_Static;
+
+public class StaticBlock3 {
+
+    static int a;
+    static int b;
+    static int c;
+
+    static{
+        a = 100;
+        b = 200;
+        c = 300;
+        //as soon as class is called
+    }
+/*
+    public static void main(String[] args) {
+        a = 100;
+        b = 200;
+        c = 300;
+*/
+    }
+
