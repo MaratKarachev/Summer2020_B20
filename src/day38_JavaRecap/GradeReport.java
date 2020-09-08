@@ -14,7 +14,7 @@ package day38_JavaRecap;
 
     Predicate: removeIf - removes all the elements that are matching with the condition
 
-    Collection Class:
+    Collection Person:
     Collections.sort()
     Collections.swap()
     Collections.frequency()

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-    /*     Collection Class:
+    /*     Collection Person:
             Collections.sort() - sorts in ascending order
             Collections.swap() - swaps
             Collections.frequency()

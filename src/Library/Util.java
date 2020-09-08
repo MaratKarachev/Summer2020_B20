@@ -79,10 +79,6 @@ public class Util {
     // formats the full name
 
 
-
-
-
-
     public static int maxNum(int[] arr) {
         int max = arr[0];
 
@@ -96,7 +92,7 @@ public class Util {
     // finds and returns the max number from an array
 
     public static Integer maxNum(Integer[] arr) {
-       Integer max = arr[0];
+        Integer max = arr[0];
 
         for (Integer each : arr) {
             if (each > max) {
@@ -130,7 +126,6 @@ public class Util {
         return max;
     }
     //finds and returns the max number from Double array
-
 
 
     public static int minNum(int[] arr) {
@@ -214,8 +209,6 @@ public class Util {
     //finds and returns the min number from Double array
 
 
-
-
     public static int[] addElement(int[] arr, int num) {
         int[] arr2 = new int[arr.length + 1];
         arr2[arr2.length - 1] = num;
@@ -247,15 +240,14 @@ public class Util {
      */
 
 
-
-    public static int[]  sortDesc(int[] arr){
+    public static int[] sortDesc(int[] arr) {
         Arrays.sort(arr);
 
         int[] arr2 = new int[arr.length];  //{5,4,3,2,1};
 
-        int k = arr.length-1;
-        for(int i = 0; i <= arr2.length-1; i++  ){
-            arr2[i]  =  arr[k];
+        int k = arr.length - 1;
+        for (int i = 0; i <= arr2.length - 1; i++) {
+            arr2[i] = arr[k];
             k--;
         }
 
@@ -263,14 +255,14 @@ public class Util {
     }
     // sorts int array in descending order and returns it
 
-    public static double[] sortDesc(double[] arr){
+    public static double[] sortDesc(double[] arr) {
         Arrays.sort(arr);
 
         double[] arr2 = new double[arr.length];
 
-        int k = arr.length-1;
-        for(int i = 0; i <= arr2.length-1; i++  ){
-            arr2[i]  =  arr[k];
+        int k = arr.length - 1;
+        for (int i = 0; i <= arr2.length - 1; i++) {
+            arr2[i] = arr[k];
             k--;
         }
 
@@ -279,14 +271,14 @@ public class Util {
     }
     // sorts double array in descending order and returns it
 
-    public static char[] sortDesc(char[] arr){
+    public static char[] sortDesc(char[] arr) {
         Arrays.sort(arr);
 
         char[] arr2 = new char[arr.length];
 
-        int k = arr.length-1;
-        for(int i = 0; i <= arr2.length-1; i++  ){
-            arr2[i]  =  arr[k];
+        int k = arr.length - 1;
+        for (int i = 0; i <= arr2.length - 1; i++) {
+            arr2[i] = arr[k];
             k--;
         }
 
@@ -295,14 +287,14 @@ public class Util {
     }
     // sorts char array in descending order and returns it
 
-    public static String[] sortDesc(String[] arr){
+    public static String[] sortDesc(String[] arr) {
         Arrays.sort(arr);
 
         String[] arr2 = new String[arr.length];
 
-        int k = arr.length-1;
-        for(int i = 0; i <= arr2.length-1; i++  ){
-            arr2[i]  =  arr[k];
+        int k = arr.length - 1;
+        for (int i = 0; i <= arr2.length - 1; i++) {
+            arr2[i] = arr[k];
             k--;
         }
 
@@ -311,14 +303,14 @@ public class Util {
     }
     //sorts String array in descending order and returns it
 
-    public static Integer[]  sortDesc(Integer[] arr){
+    public static Integer[] sortDesc(Integer[] arr) {
         Arrays.sort(arr);
 
         Integer[] arr2 = new Integer[arr.length];  //{5,4,3,2,1};
 
-        int k = arr.length-1;
-        for(int i = 0; i <= arr2.length-1; i++  ){
-            arr2[i]  =  arr[k];
+        int k = arr.length - 1;
+        for (int i = 0; i <= arr2.length - 1; i++) {
+            arr2[i] = arr[k];
             k--;
         }
 
@@ -326,14 +318,14 @@ public class Util {
     }
     //sorts Integer array in descending order
 
-    public static Double[]  sortDesc(Double[] arr){
+    public static Double[] sortDesc(Double[] arr) {
         Arrays.sort(arr);
 
         Double[] arr2 = new Double[arr.length];  //{5,4,3,2,1};
 
-        int k = arr.length-1;
-        for(int i = 0; i <= arr2.length-1; i++  ){
-            arr2[i]  =  arr[k];
+        int k = arr.length - 1;
+        for (int i = 0; i <= arr2.length - 1; i++) {
+            arr2[i] = arr[k];
             k--;
         }
 
@@ -341,14 +333,14 @@ public class Util {
     }
     //sorts Double array in descending order
 
-    public static Character[]  sortDesc(Character[] arr){
+    public static Character[] sortDesc(Character[] arr) {
         Arrays.sort(arr);
 
         Character[] arr2 = new Character[arr.length];  //{5,4,3,2,1};
 
-        int k = arr.length-1;
-        for(int i = 0; i <= arr2.length-1; i++  ){
-            arr2[i]  =  arr[k];
+        int k = arr.length - 1;
+        for (int i = 0; i <= arr2.length - 1; i++) {
+            arr2[i] = arr[k];
             k--;
         }
 
@@ -488,6 +480,14 @@ public class Util {
 
     }
     //combines two array and returns it
+
+    public static void sleep(double seconds) {
+
+        try {
+            Thread.sleep((long) seconds * 1000);
+        } catch (InterruptedException e) {
+        }
+    }
 
 
 }
