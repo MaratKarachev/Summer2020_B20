@@ -25,7 +25,7 @@ public class AbduTask {
             for (int j = 1; j <= 5; j++) {
                 if (j <= s) {
 
-                    System.out.print("*");
+                    System.out.print(s);
                 }
             }
             s--;

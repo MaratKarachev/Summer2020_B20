@@ -17,7 +17,7 @@ public class BranchingStatements {
 
         boolean a=true;
         while(a){
-            System.out.println("Test started");
+            System.out.println("RemoveDuplicatesFromArray started");
            // break; only exits the loop.
             System.exit(0); // if gets executed, entire program will be terminated.
         }

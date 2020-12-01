@@ -16,7 +16,7 @@ public void print1 (){
     System.out.println(a); // SuperKeyword' a ==>300
 }
 public void print2 (){
-    System.out.println(super.a); // Test' a ==>200
+    System.out.println(super.a); // RemoveDuplicatesFromArray' a ==>200
 }
 
 public void method2(){
